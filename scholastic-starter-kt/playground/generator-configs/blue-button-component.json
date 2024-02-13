@@ -1,0 +1,41 @@
+{
+    "project-settings": {
+        "code-owner": "Scholastic",
+        "bundle-path": "core/src/main/java",
+        "test-path": "core/src/test/java",
+        "apps-path": "ui.apps/src/main/content/jcr_root/apps",
+        "component-path": "playground/components",
+        "model-interface-pkg": "com.scholastic.playground.core.models",
+        "model-impl-pkg": "com.scholastic.playground.core.models.impl"
+    },
+
+    "name": "blue-button",
+    "title": "Blue Button",
+    "group": "Scholastic",
+    "type": "content",
+    "options": {
+        "js": true,
+        "jstxt": true,
+        "css": true,
+        "csstxt": true,
+        "html": true,
+        "html-content": true,
+        "slingmodel": true,
+        "testclass": true,
+        "junit-major-version": 5,
+        "content-exporter": true,
+        "model-adaptables": [
+            "request"
+        ],
+        "generic-javadoc": false,
+        "properties": [
+            {
+                "field": "text",
+                "description": "Text to be included in blue button",
+                "type": "textfield",
+                "label": "Blue Button Text",
+                "json-expose": true
+            }
+        ]
+    }
+}
